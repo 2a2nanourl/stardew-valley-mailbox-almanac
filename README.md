@@ -26,11 +26,11 @@ All thirteen repeat every year, including in saves that are already past year on
 
 ## Requirements
 
-- Stardew Valley **1.6.15** or later
+- Stardew Valley **1.6.15** or later — current PC release is **1.6.16**, which this pack targets
 - [SMAPI](https://smapi.io/) **4.0.0** or later
 - [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915) **2.0.0** or later
 
-Built and tested against 1.6.15 with Content Patcher 2.9.1.
+Written against 1.6.16 with Content Patcher 2.9.1. Everything it touches — `Data/Mail` and `Data/TriggerActions` — is stable across 1.6.x.
 
 ## Installation
 
