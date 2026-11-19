@@ -1,0 +1,12 @@
+{
+  "Name": "Mailbox Almanac",
+  "Author": "2a2nanourl",
+  "Version": "1.0.0",
+  "Description": "Seasonal letters in your mailbox: festivals, planting windows, and a reminder before the season turns.",
+  "UniqueID": "2a2nanourl.MailboxAlmanac",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.0"
+  }
+}
