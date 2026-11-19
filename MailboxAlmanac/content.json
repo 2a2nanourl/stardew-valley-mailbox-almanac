@@ -1,0 +1,145 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "{{ModId}}_Welcome": "{{i18n:mail.welcome.body}}[#]{{i18n:mail.welcome.title}}",
+        "{{ModId}}_SpringOpen": "{{i18n:mail.SpringOpen.body}}[#]{{i18n:mail.SpringOpen.title}}",
+        "{{ModId}}_SpringMid": "{{i18n:mail.SpringMid.body}}[#]{{i18n:mail.SpringMid.title}}",
+        "{{ModId}}_SpringClose": "{{i18n:mail.SpringClose.body}}[#]{{i18n:mail.SpringClose.title}}",
+        "{{ModId}}_SummerOpen": "{{i18n:mail.SummerOpen.body}}[#]{{i18n:mail.SummerOpen.title}}",
+        "{{ModId}}_SummerMid": "{{i18n:mail.SummerMid.body}}[#]{{i18n:mail.SummerMid.title}}",
+        "{{ModId}}_SummerClose": "{{i18n:mail.SummerClose.body}}[#]{{i18n:mail.SummerClose.title}}",
+        "{{ModId}}_FallOpen": "{{i18n:mail.FallOpen.body}}[#]{{i18n:mail.FallOpen.title}}",
+        "{{ModId}}_FallMid": "{{i18n:mail.FallMid.body}}[#]{{i18n:mail.FallMid.title}}",
+        "{{ModId}}_FallClose": "{{i18n:mail.FallClose.body}}[#]{{i18n:mail.FallClose.title}}",
+        "{{ModId}}_WinterOpen": "{{i18n:mail.WinterOpen.body}}[#]{{i18n:mail.WinterOpen.title}}",
+        "{{ModId}}_WinterMid": "{{i18n:mail.WinterMid.body}}[#]{{i18n:mail.WinterMid.title}}",
+        "{{ModId}}_WinterClose": "{{i18n:mail.WinterClose.body}}[#]{{i18n:mail.WinterClose.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "{{ModId}}_Welcome": {
+          "Id": "{{ModId}}_Welcome",
+          "Trigger": "DayStarted",
+          "Actions": [
+            "AddMail Current {{ModId}}_Welcome Now"
+          ]
+        },
+        "{{ModId}}_SpringOpen": {
+          "Id": "{{ModId}}_SpringOpen",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY spring 1",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_SpringOpen Now"
+          ]
+        },
+        "{{ModId}}_SpringMid": {
+          "Id": "{{ModId}}_SpringMid",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY spring 8",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_SpringMid Now"
+          ]
+        },
+        "{{ModId}}_SpringClose": {
+          "Id": "{{ModId}}_SpringClose",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY spring 28",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_SpringClose Now"
+          ]
+        },
+        "{{ModId}}_SummerOpen": {
+          "Id": "{{ModId}}_SummerOpen",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY summer 1",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_SummerOpen Now"
+          ]
+        },
+        "{{ModId}}_SummerMid": {
+          "Id": "{{ModId}}_SummerMid",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY summer 8",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_SummerMid Now"
+          ]
+        },
+        "{{ModId}}_SummerClose": {
+          "Id": "{{ModId}}_SummerClose",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY summer 28",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_SummerClose Now"
+          ]
+        },
+        "{{ModId}}_FallOpen": {
+          "Id": "{{ModId}}_FallOpen",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY fall 1",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_FallOpen Now"
+          ]
+        },
+        "{{ModId}}_FallMid": {
+          "Id": "{{ModId}}_FallMid",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY fall 8",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_FallMid Now"
+          ]
+        },
+        "{{ModId}}_FallClose": {
+          "Id": "{{ModId}}_FallClose",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY fall 28",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_FallClose Now"
+          ]
+        },
+        "{{ModId}}_WinterOpen": {
+          "Id": "{{ModId}}_WinterOpen",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY winter 1",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_WinterOpen Now"
+          ]
+        },
+        "{{ModId}}_WinterMid": {
+          "Id": "{{ModId}}_WinterMid",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY winter 8",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_WinterMid Now"
+          ]
+        },
+        "{{ModId}}_WinterClose": {
+          "Id": "{{ModId}}_WinterClose",
+          "Trigger": "DayStarted",
+          "Condition": "SEASON_DAY winter 28",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail Current {{ModId}}_WinterClose Now"
+          ]
+        }
+      }
+    }
+  ]
+}
