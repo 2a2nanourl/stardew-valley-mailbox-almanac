@@ -21,7 +21,7 @@ Mailbox Almanac fixes that the quiet way. A letter arrives at the turn of each s
 2. Unzip `MailboxAlmanac-1.0.0.zip` into `Stardew Valley/Mods`. You should end up with `Mods/MailboxAlmanac/manifest.json`.
 3. Play. The first letter arrives when the next day begins.
 
-Requires Stardew Valley 1.6.15 or later.
+Requires Stardew Valley 1.6.15 or later. Written against 1.6.16, the current PC release.
 
 ## Notes
 
